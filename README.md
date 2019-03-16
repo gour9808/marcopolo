@@ -1,27 +1,49 @@
 # MyTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+## Imports
 
-## Development server
+imports makes the exported declarations of other modules available in the current module.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Declarations
 
-## Code scaffolding
+Declarations are to make directives, components and pipes from the current module available to other directives in the current module.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Providers 
 
-## Build
+Runtime version of a dependency value
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Modules
 
-## Running unit tests
+A Module declares a compilation context for a set of components, it must declare all the components, directives and pipe it needs.
+Every Angular app has a root module.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Component
 
-## Running end-to-end tests
+Angular components are the basic building blocks of an app, component logic is stored, allow us to define the template, CSS styling, animations.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Services
 
-## Further help
+logic that isn't associated with a specific view, and that we want to share across components.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Directives
+
+Responsible for updating the DOM when the state of the model changes 
+(1) Structural Directive: change the DOM layout (*ngIf, *ngFor) 
+(2) Attibute Directive:  change the behavior of a component (ngStyle)
+
+## Models 
+
+When we are working with Observable we define type of response. We create Models.
+
+## Start
+
+ download zip file and extract.
+ Open in visual studio code.
+ open command prompt and go to project directry.
+ type npm install
+ and then type ng serve to run project
+
+## Test
+
+type ng test
+
